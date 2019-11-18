@@ -1,0 +1,15 @@
+adminUser:
+  password: vault:deertrail/adminUser:password
+  username: admin
+dashboardAuthID: vault:deertrail:dashboardAuthID
+dashboardAuthOrg: arcalos-dashboard
+dashboardAuthSecret: vault:deertrail:dashboardAuthSecret
+dashboardGrpchost: dex.jx
+enableDocker: false
+pipelineUser:
+  email: arcalos-admin@googlegroups.com
+  token: vault:deertrail/pipelineUser:token
+  username: arcalos-bot
+prow:
+  hmacToken: vault:deertrail/prow:hmacToken
+segmentWriteKey: vault:deertrail:segmentWriteKey
